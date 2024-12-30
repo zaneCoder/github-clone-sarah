@@ -1,0 +1,217 @@
+h1{
+    font-size: 50px;
+}
+
+body{
+    background: #0d1117;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    /* padding: 0; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 98%;
+    
+    /* border: 1px solid; */
+}
+.left{
+    display: flex;
+    align-items: center;
+    /* width: 45%; */
+}
+
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.menu{
+    width: 20px;
+}
+.lock{
+    margin-left: 10px;
+    width: 13px;
+}
+
+.menu{
+    width: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.cat{
+    width: 50px;
+}
+
+.search{
+    border-radius: 5px;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    padding-left: 30px;
+    width: 236px;
+}
+
+.search-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 31px;
+}
+
+.search-logo{
+    height: 20px;
+    position: absolute;
+    left: 7px;
+}
+
+.slash{
+    position: absolute;
+    height: 16px;
+    left: 69px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.chatbot-div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 31px;
+}
+
+.right{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%;
+}
+
+.bot{
+    position: absolute;
+    left: 0;
+    height: 26px;
+}
+
+.chatbot{
+    width: 52px;
+    background-color: transparent;
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.plus-div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 31px;
+}
+
+.select-plus{
+    width: 52px;
+    background-color: transparent;
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.plus{
+    position: absolute;
+    left: 7px;
+    height: 17px;
+}
+
+.circle-div{
+    height: 31px;
+    width: 31px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    position: absolute;
+    height: 25px;
+}
+
+.a-div{
+    height: 31px;
+    width: 31px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    position: absolute;
+    height: 25px;
+}
+
+.disc-div{
+    height: 31px;
+    width: 31px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disc{
+    position: absolute;
+    height: 25px;
+}
+
+.logo-div{
+    height: 31px;
+    width: 31px;
+    /* border: 1px solid;
+    border-radius: 5px; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    height: 37px;
+}
+
+.code{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+.word{
+    font-family: system-ui;
+}
+
+.two>div{
+    margin-right: 30px;
+}
